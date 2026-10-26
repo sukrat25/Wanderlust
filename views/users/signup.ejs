@@ -1,0 +1,60 @@
+<% layout("/layouts/boilerplate") %>
+
+<div class="row mt-3">
+    <h1 class="col-6 offset-3">Signup on Wanderlust</h1>
+    <div class="col-6 offset-3">
+        <form action="/signup" method="POST" class="needs-validation" novalidate>
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input 
+                    name="username" 
+                    placeholder="Enter a Username" 
+                    id="username"
+                    type="text" 
+                    class="form-control"
+                    required
+                />
+                <div class="valid-feedback">
+                    Looks good!
+                </div>
+                <div class="invalid-feedback">
+                    Please enter a valid Username
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Id</label>
+                <input 
+                    name="email" 
+                    placeholder="Enter your email id" 
+                    id="email"
+                    type="text" 
+                    class="form-control"
+                    required
+                />
+                <div class="invalid-feedback">
+                    Please enter a valid email
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input 
+                    name="password" 
+                    placeholder="Enter a strong password" 
+                    id="password"
+                    type="password" 
+                    class="form-control"
+                    required
+                />
+                <div class="invalid-feedback">
+                    Enter a strong password
+                </div>
+            </div>
+            <button class="btn btn-danger">Sign Up</button>
+            <br><hr>
+            <p>Already have an Account? <a href="/login" style="color: red;">Login</a></p>
+
+        </form>
+    </div>
+</div>
