@@ -153,6 +153,11 @@ Wanderlust/
 
 ---
 
+## 🚧 Currently Working On
+
+- **Advanced Listing Filters:** Implementing filters to help users narrow down accommodation listings based on relevant criteria and find suitable places more efficiently.
+- **Search Bar Optimization:** Improving search functionality to deliver more relevant listing results and provide a smoother, more intuitive discovery experience.
+
 ## 🔮 Future Improvements
 
 Potential enhancements include:
